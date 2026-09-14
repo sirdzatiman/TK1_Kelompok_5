@@ -60,7 +60,7 @@ public class Nadira extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Foto nadira.png"))); // NOI18N
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 310, 380));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 60, 310, 380));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/IDENTITAS MAHASISWA (1).png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));
