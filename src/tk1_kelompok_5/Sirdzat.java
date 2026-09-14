@@ -135,7 +135,7 @@ public class Sirdzat extends javax.swing.JFrame {
                 jLabel24MouseClicked(evt);
             }
         });
-        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 0, 40, 20));
+        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 0, 40, 30));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/backgrounf resize.png"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
