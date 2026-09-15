@@ -52,7 +52,7 @@ public class Sirdzat extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
         jLabel24 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -62,31 +62,31 @@ public class Sirdzat extends javax.swing.JFrame {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/Foto.png"))); // NOI18N
         jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 320, 390));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/IDENTITAS MAHASISWA (1).png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/IDENTITAS MAHASISWA (1).png"))); // NOI18N
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Line 1.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Line 1.png"))); // NOI18N
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, -1, 20));
 
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/icons8-person-48 1.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-person-48 1.png"))); // NOI18N
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, 60, 40));
 
         jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/icons8-id-card-40 1.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-id-card-40 1.png"))); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 60, 30));
 
         jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/icons8-home-40 1.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-home-40 1.png"))); // NOI18N
         jPanel1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 240, 60, -1));
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Nama _.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Nama _.png"))); // NOI18N
         jPanel1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 90, 40));
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/NIM _.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/NIM _.png"))); // NOI18N
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 100, 30));
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Alamat _.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Alamat _.png"))); // NOI18N
         jPanel1.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, 90, 40));
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/SIR DZAT IMAN RAJA TULLOH.png"))); // NOI18N
@@ -98,26 +98,26 @@ public class Sirdzat extends javax.swing.JFrame {
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/Ds.Ngetos, Kec.Ngetos Kab.Nganjuk.png"))); // NOI18N
         jPanel1.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, -1, -1));
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Line 1.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Line 1.png"))); // NOI18N
         jPanel1.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, 20));
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/qrcode_399508861_8057006439d0960c3a42b1fd83cfc781 1.png"))); // NOI18N
         jPanel1.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 350, -1, -1));
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Frame 3.png"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Frame 3.png"))); // NOI18N
         jPanel1.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, -1, -1));
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/icons8-search-40 (1) 1.png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-search-40 (1) 1.png"))); // NOI18N
         jLabel18.setToolTipText("");
         jPanel1.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 330, 20, 20));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Rectangle 1.png"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Rectangle 1.png"))); // NOI18N
         jPanel1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 320, -1, -1));
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Program Studi Sistem Informasi.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Program Studi Sistem Informasi.png"))); // NOI18N
         jPanel1.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, -1, -1));
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/icons8-graduation-40 1.png"))); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-graduation-40 1.png"))); // NOI18N
         jPanel1.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 320, -1, -1));
 
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/_.png"))); // NOI18N
@@ -137,8 +137,9 @@ public class Sirdzat extends javax.swing.JFrame {
         });
         jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 0, 40, 20));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/backgrounf resize.png"))); // NOI18N
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/backgrounf resize.png"))); // NOI18N
+        jLabel25.setText("jLabel25");
+        jPanel1.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 860, 490));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -202,7 +203,7 @@ public class Sirdzat extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
