@@ -4,19 +4,27 @@
  */
 package tk1_kelompok_5;
 
+import tk1_kelompok_5.Frame_Dasboard.frameDashboard;
+
 /**
  *
  * @author user
  */
 public class Waffa extends javax.swing.JFrame {
-    
+
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(Waffa.class.getName());
+    private frameDashboard dashboard;
 
     /**
      * Creates new form Waffa
      */
     public Waffa() {
         initComponents();
+    }
+
+    public Waffa(frameDashboard dashboard) {
+        initComponents();
+        this.dashboard = dashboard;
     }
 
     /**
@@ -131,6 +139,7 @@ public class Waffa extends javax.swing.JFrame {
         jPanel1.add(Titik_Atas, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 150, 30, 20));
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/image 2.png"))); // NOI18N
+        jLabel24.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel24.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel24MouseClicked(evt);
@@ -158,6 +167,8 @@ public class Waffa extends javax.swing.JFrame {
 
     private void jLabel24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel24MouseClicked
         // TODO add your handling code here:
+        dashboard.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_jLabel24MouseClicked
 
     /**

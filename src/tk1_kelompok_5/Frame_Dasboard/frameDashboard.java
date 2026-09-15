@@ -4,12 +4,19 @@
  */
 package tk1_kelompok_5.Frame_Dasboard;
 
+import tk1_kelompok_5.Anam;
+import tk1_kelompok_5.Faris;
+import tk1_kelompok_5.Nadira;
+import tk1_kelompok_5.Saipul;
+import tk1_kelompok_5.Sirdzat;
+import tk1_kelompok_5.Waffa;
+
 /**
  *
  * @author Sirdzat
  */
 public class frameDashboard extends javax.swing.JFrame {
-    
+
     private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(frameDashboard.class.getName());
 
     /**
@@ -45,27 +52,69 @@ public class frameDashboard extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         openNadira.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openNadira.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openNadira.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openNadiraMouseClicked(evt);
+            }
+        });
         jPanel1.add(openNadira, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 240, 40, 110));
 
         openSaiful.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openSaiful.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openSaiful.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openSaifulMouseClicked(evt);
+            }
+        });
         jPanel1.add(openSaiful, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 240, 40, 110));
 
         openFaris.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openFaris.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openFaris.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openFarisMouseClicked(evt);
+            }
+        });
         jPanel1.add(openFaris, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 240, 40, 110));
 
         openSirdzat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openSirdzat.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openSirdzat.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openSirdzatMouseClicked(evt);
+            }
+        });
         jPanel1.add(openSirdzat, new org.netbeans.lib.awtextra.AbsoluteConstraints(263, 390, 40, 110));
 
         openWaffa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openWaffa.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openWaffa.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openWaffaMouseClicked(evt);
+            }
+        });
         jPanel1.add(openWaffa, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 390, 40, 110));
 
         openAnam.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 25.png"))); // NOI18N
+        openAnam.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        openAnam.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                openAnamMouseClicked(evt);
+            }
+        });
         jPanel1.add(openAnam, new org.netbeans.lib.awtextra.AbsoluteConstraints(933, 390, 40, 110));
 
         biodata.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 27.png"))); // NOI18N
         jPanel1.add(biodata, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 28.png"))); // NOI18N
+        close.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        close.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                closeMouseClicked(evt);
+            }
+        });
         jPanel1.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 0, -1, -1));
 
         backgroung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 26.png"))); // NOI18N
@@ -85,6 +134,57 @@ public class frameDashboard extends javax.swing.JFrame {
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void openNadiraMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openNadiraMouseClicked
+        // TODO add your handling code here:
+        Nadira nadira = new Nadira(this);
+        nadira.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_openNadiraMouseClicked
+
+    private void openSaifulMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openSaifulMouseClicked
+        // TODO add your handling code here:
+        Saipul saipul = new Saipul(this);
+        saipul.setVisible(true);
+
+        this.setVisible(false);
+    }//GEN-LAST:event_openSaifulMouseClicked
+
+    private void openFarisMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openFarisMouseClicked
+        // TODO add your handling code here:
+        Faris faris = new Faris(this);
+        faris.setVisible(true);
+
+        this.setVisible(false);
+    }//GEN-LAST:event_openFarisMouseClicked
+
+    private void openSirdzatMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openSirdzatMouseClicked
+        // TODO add your handling code here:
+        Sirdzat sirdzat = new Sirdzat(this);
+        sirdzat.setVisible(true);
+
+        this.setVisible(false);
+    }//GEN-LAST:event_openSirdzatMouseClicked
+
+    private void openWaffaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openWaffaMouseClicked
+        // TODO add your handling code here:
+        Waffa waffa = new Waffa(this);
+        waffa.setVisible(true);
+
+        this.setVisible(false);
+    }//GEN-LAST:event_openWaffaMouseClicked
+
+    private void openAnamMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_openAnamMouseClicked
+        // TODO add your handling code here:
+        Anam anam = new Anam(this);
+        anam.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_openAnamMouseClicked
+
+    private void closeMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_closeMouseClicked
+        // TODO add your handling code here:
+        dispose();
+    }//GEN-LAST:event_closeMouseClicked
 
     /**
      * @param args the command line arguments
