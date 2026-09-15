@@ -45,19 +45,19 @@
         <Component class="javax.swing.JLabel" name="jLabel5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Foto nadira.png"/>
+              <Image iconType="3" name="/Dira/Foto nadira.png"/>
             </Property>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="60" width="310" height="380"/>
+              <AbsoluteConstraints x="10" y="60" width="300" height="380"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/IDENTITAS MAHASISWA (1).png"/>
+              <Image iconType="3" name="/Dira/IDENTITAS MAHASISWA (1).png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -69,7 +69,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Line 1.png"/>
+              <Image iconType="3" name="/Dira/Line 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -82,7 +82,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/icons8-person-48 1.png"/>
+              <Image iconType="3" name="/Dira/icons8-person-48 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -95,7 +95,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/icons8-id-card-40 1.png"/>
+              <Image iconType="3" name="/Dira/icons8-id-card-40 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -108,7 +108,7 @@
           <Properties>
             <Property name="horizontalAlignment" type="int" value="0"/>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/icons8-home-40 1.png"/>
+              <Image iconType="3" name="/Dira/icons8-home-40 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -120,7 +120,7 @@
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Nama _.png"/>
+              <Image iconType="3" name="/Dira/Nama _.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -132,7 +132,7 @@
         <Component class="javax.swing.JLabel" name="jLabel9">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/NIM _.png"/>
+              <Image iconType="3" name="/Dira/NIM _.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -144,7 +144,7 @@
         <Component class="javax.swing.JLabel" name="jLabel10">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Alamat _.png"/>
+              <Image iconType="3" name="/Dira/Alamat _.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -156,7 +156,7 @@
         <Component class="javax.swing.JLabel" name="jLabel11">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Nadira Visa A..png"/>
+              <Image iconType="3" name="/Dira/Nadira Visa A..png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -168,7 +168,7 @@
         <Component class="javax.swing.JLabel" name="jLabel12">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/202557201031.png"/>
+              <Image iconType="3" name="/Dira/202557201031.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -180,7 +180,7 @@
         <Component class="javax.swing.JLabel" name="jLabel13">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Ds.Ngrengket, Kec.Sukomoro Kab.Nganjuk.png"/>
+              <Image iconType="3" name="/Dira/Ds.Ngrengket, Kec.Sukomoro Kab.Nganjuk.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -192,7 +192,7 @@
         <Component class="javax.swing.JLabel" name="jLabel14">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Line 1.png"/>
+              <Image iconType="3" name="/Dira/Line 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -204,7 +204,7 @@
         <Component class="javax.swing.JLabel" name="jLabel15">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/diraQr(1).png"/>
+              <Image iconType="3" name="/Dira/diraQr(1).png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -216,7 +216,7 @@
         <Component class="javax.swing.JLabel" name="jLabel17">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Frame 3.png"/>
+              <Image iconType="3" name="/Dira/Frame 3.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -228,7 +228,7 @@
         <Component class="javax.swing.JLabel" name="jLabel18">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/icons8-search-40 (1) 1.png"/>
+              <Image iconType="3" name="/Dira/icons8-search-40 (1) 1.png"/>
             </Property>
             <Property name="toolTipText" type="java.lang.String" value=""/>
           </Properties>
@@ -241,7 +241,7 @@
         <Component class="javax.swing.JLabel" name="jLabel16">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Rectangle 1.png"/>
+              <Image iconType="3" name="/Dira/Rectangle 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -253,7 +253,7 @@
         <Component class="javax.swing.JLabel" name="jLabel19">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/Program Studi Sistem Informasi.png"/>
+              <Image iconType="3" name="/Dira/Program Studi Sistem Informasi.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -265,7 +265,7 @@
         <Component class="javax.swing.JLabel" name="jLabel20">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/icons8-graduation-40 1.png"/>
+              <Image iconType="3" name="/Dira/icons8-graduation-40 1.png"/>
             </Property>
           </Properties>
           <Constraints>
@@ -325,10 +325,10 @@
             </Constraint>
           </Constraints>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="jLabel25">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/tk1_kelompok_5/Icon/PNG/backgrounf resize.png"/>
+              <Image iconType="3" name="/Dira/backgrounf resize.png"/>
             </Property>
           </Properties>
           <Constraints>
