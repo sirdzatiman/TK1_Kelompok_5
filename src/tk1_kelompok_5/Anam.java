@@ -60,7 +60,7 @@ public class Anam extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Foto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Anam/image 15.png"))); // NOI18N
-        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 330, 400));
+        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 420));
 
         Identitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/IDENTITAS MAHASISWA.png"))); // NOI18N
         jPanel1.add(Identitas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));

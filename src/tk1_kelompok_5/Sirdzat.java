@@ -60,7 +60,7 @@ public class Sirdzat extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Foto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/Foto.png"))); // NOI18N
-        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 330, 400));
+        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 330, 410));
 
         Identitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/IDENTITAS MAHASISWA.png"))); // NOI18N
         jPanel1.add(Identitas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));
