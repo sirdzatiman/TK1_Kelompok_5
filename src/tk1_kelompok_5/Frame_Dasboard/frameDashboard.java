@@ -40,6 +40,7 @@ public class frameDashboard extends javax.swing.JFrame {
         backgroung = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -65,7 +66,7 @@ public class frameDashboard extends javax.swing.JFrame {
         jPanel1.add(biodata, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         close.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 28.png"))); // NOI18N
-        jPanel1.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 0, -1, -1));
+        jPanel1.add(close, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 0, -1, -1));
 
         backgroung.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Frame_Dasboard/Group 26.png"))); // NOI18N
         jPanel1.add(backgroung, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
@@ -82,6 +83,7 @@ public class frameDashboard extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     /**
