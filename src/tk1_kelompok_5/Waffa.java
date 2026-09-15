@@ -59,8 +59,8 @@ public class Waffa extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(860, 485));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        Foto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Foto klompok.png"))); // NOI18N
-        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 330, 410));
+        Foto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Waffa/Foto klompok.png"))); // NOI18N
+        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 330, 410));
 
         Identitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/IDENTITAS MAHASISWA.png"))); // NOI18N
         jPanel1.add(Identitas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));
@@ -89,19 +89,19 @@ public class Waffa extends javax.swing.JFrame {
         ALAMAT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Alamat _.png"))); // NOI18N
         jPanel1.add(ALAMAT, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, 90, 40));
 
-        Nama_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/M. TIJANI WAFFA HAQIQI.png"))); // NOI18N
+        Nama_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Waffa/M. TIJANI WAFFA HAQIQI.png"))); // NOI18N
         jPanel1.add(Nama_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, -1, -1));
 
-        Nim_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/202557201021.png"))); // NOI18N
+        Nim_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Waffa/202557201021.png"))); // NOI18N
         jPanel1.add(Nim_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 188, -1, 30));
 
-        Alamat_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/Ds.Berbek, Kec.Berbek Kab.Nganjuk.png"))); // NOI18N
+        Alamat_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Waffa/Ds.Berbek, Kec.Berbek Kab.Nganjuk.png"))); // NOI18N
         jPanel1.add(Alamat_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, -1, -1));
 
         Garis2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Line 1.png"))); // NOI18N
         jPanel1.add(Garis2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, 20));
 
-        Barcode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/PNG/wafaQr 1.png"))); // NOI18N
+        Barcode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Waffa/wafaQr 1.png"))); // NOI18N
         jPanel1.add(Barcode, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 350, -1, -1));
 
         Scan_Link.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Frame 3.png"))); // NOI18N
