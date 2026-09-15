@@ -29,16 +29,116 @@ public class Faris extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
+        Foto = new javax.swing.JLabel();
+        Identitas = new javax.swing.JLabel();
+        Garis1 = new javax.swing.JLabel();
+        Icon_nama = new javax.swing.JLabel();
+        Icon_Nim = new javax.swing.JLabel();
+        Icon_Alamat = new javax.swing.JLabel();
+        NAMA = new javax.swing.JLabel();
+        NIM = new javax.swing.JLabel();
+        ALAMAT = new javax.swing.JLabel();
+        Nama_Saya = new javax.swing.JLabel();
+        Nim_Saya = new javax.swing.JLabel();
+        Alamat_Saya = new javax.swing.JLabel();
+        Garis2 = new javax.swing.JLabel();
+        Barcode = new javax.swing.JLabel();
+        Scan_Link = new javax.swing.JLabel();
+        Icon_Link = new javax.swing.JLabel();
+        Bacground_Barcode = new javax.swing.JLabel();
+        Program_Studi = new javax.swing.JLabel();
+        Topi = new javax.swing.JLabel();
+        Titik_Bawah = new javax.swing.JLabel();
+        Titik_Tengah = new javax.swing.JLabel();
+        Titik_Atas = new javax.swing.JLabel();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(860, 480));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/backgrounf resize.png"))); // NOI18N
-        jLabel1.setPreferredSize(new java.awt.Dimension(860, 480));
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        Foto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/WhatsApp Image 2026-07-15 at 15.46.12 1.png"))); // NOI18N
+        jPanel1.add(Foto, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 330, 400));
+
+        Identitas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/IDENTITAS MAHASISWA.png"))); // NOI18N
+        jPanel1.add(Identitas, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 90, -1, 30));
+
+        Garis1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Line 1.png"))); // NOI18N
+        jPanel1.add(Garis1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 120, -1, 20));
+
+        Icon_nama.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Icon_nama.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-person-48 1.png"))); // NOI18N
+        jPanel1.add(Icon_nama, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, 60, 40));
+
+        Icon_Nim.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Icon_Nim.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-id-card-40 1.png"))); // NOI18N
+        jPanel1.add(Icon_Nim, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 190, 60, 30));
+
+        Icon_Alamat.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Icon_Alamat.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-home-40 1.png"))); // NOI18N
+        jPanel1.add(Icon_Alamat, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 240, 60, -1));
+
+        NAMA.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Nama _.png"))); // NOI18N
+        jPanel1.add(NAMA, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 90, 40));
+
+        NIM.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/NIM _.png"))); // NOI18N
+        jPanel1.add(NIM, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 190, 100, 30));
+
+        ALAMAT.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Alamat _.png"))); // NOI18N
+        jPanel1.add(ALAMAT, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 230, 90, 40));
+
+        Nama_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/FARIS ADLI HAQQONI.png"))); // NOI18N
+        jPanel1.add(Nama_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 150, -1, -1));
+
+        Nim_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/202557201013.png"))); // NOI18N
+        jPanel1.add(Nim_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 188, -1, 30));
+
+        Alamat_Saya.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/Ds Bareng, Kec Sawahan, Kab Nganjuk.png"))); // NOI18N
+        jPanel1.add(Alamat_Saya, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, -1, -1));
+
+        Garis2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Line 1.png"))); // NOI18N
+        jPanel1.add(Garis2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 300, -1, 20));
+
+        Barcode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Faris/farisQr.Fiks 1.png"))); // NOI18N
+        jPanel1.add(Barcode, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 350, -1, -1));
+
+        Scan_Link.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Frame 3.png"))); // NOI18N
+        jPanel1.add(Scan_Link, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 320, -1, -1));
+
+        Icon_Link.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-search-40 (1) 1.png"))); // NOI18N
+        Icon_Link.setToolTipText("");
+        jPanel1.add(Icon_Link, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 330, 20, 20));
+
+        Bacground_Barcode.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Rectangle 1.png"))); // NOI18N
+        jPanel1.add(Bacground_Barcode, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 320, -1, -1));
+
+        Program_Studi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/Program Studi Sistem Informasi.png"))); // NOI18N
+        jPanel1.add(Program_Studi, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 330, -1, -1));
+
+        Topi.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Dira/icons8-graduation-40 1.png"))); // NOI18N
+        jPanel1.add(Topi, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 320, -1, -1));
+
+        Titik_Bawah.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/_.png"))); // NOI18N
+        jPanel1.add(Titik_Bawah, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 230, 20, 40));
+
+        Titik_Tengah.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/_.png"))); // NOI18N
+        jPanel1.add(Titik_Tengah, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 190, 30, 30));
+
+        Titik_Atas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/_.png"))); // NOI18N
+        jPanel1.add(Titik_Atas, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 150, 30, 20));
+
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelompok_5/Icon/image 2.png"))); // NOI18N
+        jLabel24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel24MouseClicked(evt);
+            }
+        });
+        jPanel1.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 0, 40, 30));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Sirdzat/backgrounf resize.png"))); // NOI18N
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 860, -1));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -55,6 +155,10 @@ public class Faris extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jLabel24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel24MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jLabel24MouseClicked
 
     /**
      * @param args the command line arguments
@@ -82,7 +186,30 @@ public class Faris extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel ALAMAT;
+    private javax.swing.JLabel Alamat_Saya;
+    private javax.swing.JLabel Bacground_Barcode;
+    private javax.swing.JLabel Barcode;
+    private javax.swing.JLabel Foto;
+    private javax.swing.JLabel Garis1;
+    private javax.swing.JLabel Garis2;
+    private javax.swing.JLabel Icon_Alamat;
+    private javax.swing.JLabel Icon_Link;
+    private javax.swing.JLabel Icon_Nim;
+    private javax.swing.JLabel Icon_nama;
+    private javax.swing.JLabel Identitas;
+    private javax.swing.JLabel NAMA;
+    private javax.swing.JLabel NIM;
+    private javax.swing.JLabel Nama_Saya;
+    private javax.swing.JLabel Nim_Saya;
+    private javax.swing.JLabel Program_Studi;
+    private javax.swing.JLabel Scan_Link;
+    private javax.swing.JLabel Titik_Atas;
+    private javax.swing.JLabel Titik_Bawah;
+    private javax.swing.JLabel Titik_Tengah;
+    private javax.swing.JLabel Topi;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
